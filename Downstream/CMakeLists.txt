@@ -7,7 +7,7 @@ project(Downstream VERSION 1.0)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-set(TARGET_NAME "MyApp")
+set(TARGET_NAME "myapp")
 
 add_executable(${TARGET_NAME} main.cpp)
 
