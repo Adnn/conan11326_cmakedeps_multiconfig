@@ -7,7 +7,7 @@ project(Internal VERSION 1.0)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-set(TARGET_NAME "internallib")
+set(TARGET_NAME "internal")
 
 add_library(${TARGET_NAME} Add.cpp)
 

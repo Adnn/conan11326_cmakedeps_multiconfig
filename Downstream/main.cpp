@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <internallib/Add.h>
+#include <internal/Add.h>
 
 int main(int argc, char * argv[])
 {

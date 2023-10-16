@@ -13,7 +13,7 @@ add_executable(${TARGET_NAME} main.cpp)
 
 find_package(Internal REQUIRED)
 
-target_link_libraries(${TARGET_NAME} PRIVATE ad::internallib)
+target_link_libraries(${TARGET_NAME} PRIVATE ad::internal)
 
 # make cache variables for install destinations
 include(GNUInstallDirs)
