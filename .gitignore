@@ -4,6 +4,9 @@
 # common #
 *.*~
 
+# virtual environments
+env/
+
 # Build folders #
 */build/
 */build_*/
