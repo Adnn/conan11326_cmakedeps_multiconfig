@@ -11,7 +11,7 @@ set(TARGET_NAME "myapp")
 
 add_executable(${TARGET_NAME} main.cpp)
 
-find_package(Internal REQUIRED)
+find_package(Internal REQUIRED CONFIG)
 
 target_link_libraries(${TARGET_NAME} PRIVATE ad::internal)
 

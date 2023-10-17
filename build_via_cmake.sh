@@ -12,7 +12,8 @@ popd
 pushd Downstream
 mkdir -p build
 cd build
-cmake .. -DCMAKE_INSTALL_PREFIX=../../sdk/downstream
+cmake .. -DCMAKE_INSTALL_PREFIX=../../sdk/downstream \
+         -DCMAKE_PREFIX_PATH=$(pwd)/../../sdk/
 cmake --build . --target install
 popd
 
